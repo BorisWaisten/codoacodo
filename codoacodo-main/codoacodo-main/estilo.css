@@ -1,9 +1,9 @@
-#fondo{
+#fondo1{
     background-image: url('imagenes_integrador_front-_1_-20220921T132422Z-001/imagenes_integrador_front-_1_/ba1.jpg')
     ;height:170vh;
     position: relative;
 }
-#fondo:before {
+#fondo1:before {
 	content:'';
 	position: absolute;
         top: 0;
@@ -11,4 +11,12 @@
 	left: 0;
 	right: 0;
 	background-color: rgba(0,0,0,0.6);
+}
+#pos1{
+	position: absolute;
+	bottom: 20%;
+	right: 10%;
+}
+#pos2{
+	position: absolute;bottom: 15%;right: 10%;
 }
