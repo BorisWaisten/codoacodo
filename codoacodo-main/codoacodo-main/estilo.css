@@ -20,3 +20,13 @@
 #pos2{
 	position: absolute;bottom: 15%;right: 10%;
 }
+#promo{
+	max-width: 100%;
+	border-radius: 0%;
+}
+#mensajePago{
+	height: 50px;
+	border-radius: 5px;
+
+
+}
