@@ -18,15 +18,25 @@
 	right: 10%;
 }
 #pos2{
-	position: absolute;bottom: 15%;right: 10%;
+	position: absolute;
+	bottom: 15%;right: 10%;
 }
 #promo{
 	max-width: 100%;
 	border-radius: 0%;
 }
-#mensajePago{
-	height: 50px;
-	border-radius: 5px;
-
-
+#fondo2{
+	background-color: #1E4860;
+}
+#botonClick{
+	background-color: #96C93E;
+	border: #96C93E ; 
+	margin: 1% 0 1% 0;
+}
+#total{
+	background-color: #CCE5FF;
+	border-color:#CCE5FF ;
+}
+#categoria{
+	margin: 4px;
 }

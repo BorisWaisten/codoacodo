@@ -136,29 +136,32 @@
             <h6 style="opacity:75%"><br>
                 CONVIERTETE EN UN</h6>
             <h5>ORADOR</h5>
-            <h6 style="opacity:75%">Anotate como orador para dar una <abbr title="Anotar">charla ignite</abbr>. Cuentanos de que quieres hablar!</h6>    
-        </div>
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-4"><input type="text" name="Nombre"  placeholder="Nombre" style="width:100%;padding: 0%">
-            </div>
-            <div class="col-4 "  >
-                <input type="text" name="Apellido" placeholder="Apellido" style="width:100%;padding: 0%;">
-            </div>
-            <div class="col-2"></div>
-        </div>
-          <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8 m-3 p-0">
-                <input type="text" name="Tema" placeholder="Sobre que quieres hablar?" style="width:100%;height:100px;">
-                <h6  style="opacity:75%;"><br>
-                    Recuerda incluir un titulo para tu charla
-                </h6>
-                <a class="btn btn-success w-100">Enviar</a>
-            </div>
-            <div class="col-2"></div>
           </div>
-          <div class="row align-items-center bg-primary text-white" id="fondo2">
+          <form style="width: 60%; margin-left: 20%; ">
+            <p style="text-align:center;">Anotate como orador para dar una <abbr title="Anotar">charla ignite</abbr>  Cuentanos de que quieres hablar!</p>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+              </div>
+            </div>
+            <div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre que quieres hablar?" style="font-size: 1.5rem; "></textarea>
+                </div>
+                <div id="passwordHelpBlock" class="form-text" >
+                  Recuerda incluir un titulo para tu charla.
+                </div>
+              </div>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary" style="background-color: #96C93E;border: #96C93E; padding: 1%; margin: 1% 0 1% 0;" type="button">Enviar</button>
+              
+              </div>
+            </form>
+          <div class="row align-items-center text-white" id="fondo2">
             <div class="col"></div>
             <div class="col"></div>
             <div class="col"><h6 class="w-100">Preguntas <br> Frecuentes</h6></div>
